@@ -39,7 +39,7 @@ const App = () => {
       </div>
       <MdKeyboardDoubleArrowUp onClick={handleScrollToTop} className=' text-white bg-[#FF7000] flex items-center justify-center rounded-full p-[0.6rem]  fixed right-4 z-[1000000000] text-[2.7rem] bottom-2 shadow-sm shadow-red cursor-pointer ' />
  
-      <a target={`_blank`} href="https://wa.me/8957100508" className='w-[16rem] cursor-pointer rounded-md p-3 flex items-center justify-center font-semibold gap-2 bg-white '>
+      <a target={`_blank`}  href="https://wa.me/918957100508" className='w-[16rem] cursor-pointer rounded-md p-3 flex items-center justify-center font-semibold gap-2 bg-white '>
       <FaWhatsapp onClick={handleScrollToTop} className=' text-white bg-[#075e54] flex items-center justify-center rounded-full p-[0.6rem]  fixed right-4 z-[1000000000] text-[2.7rem] bottom-14 shadow-sm shadow-red cursor-pointer' /> </a>
     </div>
   )

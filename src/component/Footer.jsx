@@ -54,12 +54,12 @@ const Footer = () => {
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 8957100508</Link>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><IoMdMail />kpmetals1101@gmail.com</Link>
                             <Link to={'/'} className={`flex items-start justify-start gap-1`}>
-                                <FaLocationDot className='text-[1.8rem]' />
-                                <p><span className='font-semibold'>FACTORY:</span> H2 Industrial Estate, Phase 1, Ramnagar, Chandauli (UP) 221110</p>
+                                <FaLocationDot className='text-[2.6rem]' />
+                                <p><span className='font-semibold'>FACTORY: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,Ramnagar,Chandauli,Uttar Pradesh 221110</p>
                             </Link>
                             <Link to={'/'} className={`flex items-start justify-start gap-1`}>
                                 <FaLocationDot className='text-[1.8rem]' />
-                                <p><span className="font-semibold">OFFICE: </span>H-2, Phase-1, Ramnagar Industrial Area, Chandauli - 2210008</p>
+                                <p><span className="font-semibold">OFFICE:  </span>K46/161 A, Hartirath,Varanasi,Uttar Pradesh-221001</p>
                             </Link>
                         </div>
                     </div>

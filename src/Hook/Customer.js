@@ -7,20 +7,20 @@ import img5 from '../assets/img5.jpg'
 
 const useCustomer = [
   {
-    "image": img1,
+    // "image": img1,
     "name": "Mr. Vinod",
   
     "rev": "KP Metals delivers excellence! Their aluminum products exceed expectations, boasting durability and precision. The team's professionalism and prompt responses ensure a seamless experience. Highly recommended for anyone seeking top-quality materials and outstanding service"
   },
   {
-    "image": img4,
+    // "image": img4,
     "name": "Mr. Kushagra ",
 
     "rev": "Outstanding quality and service from KP Metals! Their aluminum products are superb, consistently meeting our needs with reliability and precision. The team's attention to detail and commitment to customer satisfaction make them our go-to supplier. Couldn't be happier with their performance"
 
   },
   {
-    "image": img2,
+    // "image": img2,
     "name": "Mr. Arif",
     "rev": "KP Metals sets the standard for excellence! Their aluminum products are of unmatched quality, delivering on durability and performance every time. With efficient service and reliable delivery, they've earned our trust as a valued partner. Highly recommend KP Metals for all aluminum needs!"
   },

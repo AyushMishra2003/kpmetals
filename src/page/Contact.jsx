@@ -81,16 +81,16 @@ const Contact = () => {
                             {/* <div className="flex items-center justify-center border min-w-[3rem] h-[3rem] rounded-full">
                                 <FaLocationDot className="text-[1.1rem]" />
                             </div> */}
-                            <Link to={'/'} className={`flex items-start justify-center gap-1`}>
-                                <FaLocationDot className='text-[1.8rem]' />
-                                <p><span className='font-semibold'>FACTORY:</span> H2 Industrial Estate, Phase 1, Ramnagar, Chandauli (UP) 221110</p>
+                            <Link to={'/'} className={`flex items-start justify-start gap-1`}>
+                                <FaLocationDot className='text-[2.6rem]' />
+                                <p><span className='font-semibold'>FACTORY: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,Ramnagar,Chandauli,Uttar Pradesh 221110</p>
                             </Link>
-                            <Link to={'/'} className={`flex items-start justify-center gap-1`}>
+                            <Link to={'/'} className={`flex items-start justify-start gap-1`}>
                                 <FaLocationDot className='text-[1.8rem]' />
-                                <p><span className='font-semibold'>FACTORY:</span> H2 Industrial Estate, Phase 1, Ramnagar, Chandauli (UP) 221110</p>
+                                <p><span className="font-semibold">OFFICE:  </span>K46/161 A, Hartirath,Varanasi,Uttar Pradesh-221001</p>
                             </Link>
                         </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <IoIosCall className="text-[1.1rem]" />
                             </div>
