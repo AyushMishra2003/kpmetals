@@ -15,7 +15,7 @@ const responsive = {
 
 const items = useCustomer.map((val, ind) => {
   return (
-    <div key={ind + 1} className='flex gap-3 '>
+    <div key={ind + 1} className='flex'>
       <CustomerCard image={val.image} name={val.name} profession={val.profession} rev={val.rev} />
     </div>
   )
@@ -26,7 +26,7 @@ const items = useCustomer.map((val, ind) => {
 const CustomerCarousel = () => {
 
   return (
-    <div className='w-[18rem]  sm:w-[32rem] md:w-[46rem] lg:w-[63rem] flex gap-1 '>
+    <div className='w-[18rem]  sm:w-[32rem] md:w-[46rem] lg:w-[63rem] flex'>
       <AliceCarousel
         mouseTracking
         autoPlayInterval={1200}

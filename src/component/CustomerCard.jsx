@@ -5,7 +5,7 @@ import { CiFacebook } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 const CustomerCard = ({ image, name, profession, rev }) => {
   return (
-    <div className=' w-[32rem] relative sm:w-[35rem]  lg:w-[40rem]  xl:w-[40rem]  flex flex-col gap-2 h-fit rounded overflow-hidden border-2 p-3 py-3 '>
+    <div className=' w-[32rem] relative sm:w-[35rem]  lg:w-[40rem] flex flex-col gap-2 rounded overflow-hidden p-[2rem] border border-[#808080]'>
       <div className='flex items-start justify-between'>
         <div>
           <p className='text-red-500'>{name}</p>

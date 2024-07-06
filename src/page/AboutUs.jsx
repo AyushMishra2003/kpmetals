@@ -17,7 +17,7 @@ const AboutUs = () => {
     }, [])
 
     return (
-        <div className='flex flex-col justify-center items-center bg-[#ffffff] sm:p-[1.5rem] p-2 gap-[2.5rem] '>
+        <div className='flex flex-col justify-center items-center sm:p-[1.5rem] p-2 gap-[2.5rem] '>
             <div className='flex flex-col items-center text-black lg:flex-row p-[1rem] gap-[2.5rem]'>
                 <div>
                     <img src={img} alt="AboutUsimge" className='xl:w-[30rem] lg:w-[30rem] w-[22rem] sm:w-[25rem]' />

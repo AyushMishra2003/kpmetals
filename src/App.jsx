@@ -24,19 +24,18 @@ const App = () => {
   }, [])
   return (
     <div className=''>
+        <Header />
       <div className='flex flex-col justify-between w-full overflow-x-hidden'>
-
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/product' element={<Product />} />
-
+        <Routes>
+             <Route path='/' element={<Home />} />
+              <Route path='/contact' element={<Contact />} />
+                 <Route path='/about' element={<AboutUs />} />
+               <Route path='/gallery' element={<Gallery />} />
+                  <Route path='/product' element={<Product />} />
       </Routes>
-      <Footer />
       </div>
+      <Footer />
+   
       <MdKeyboardDoubleArrowUp onClick={handleScrollToTop} className=' text-white bg-[#FF7000] flex items-center justify-center rounded-full p-[0.6rem]  fixed right-4 z-[1000000000] text-[2.7rem] bottom-2 shadow-sm shadow-red cursor-pointer ' />
  
       <a target={`_blank`}  href="https://wa.me/918957100508" className='w-[16rem] cursor-pointer rounded-md p-3 flex items-center justify-center font-semibold gap-2 bg-white '>

@@ -65,7 +65,7 @@ const Contact = () => {
 
     const labelStyle = "text-[0.85rem] tracking-wide text-[#FF7000]"
     return (
-        <div className='flex flex-col  justify-center w-full  p-2 py-10 bg-[#ffffff] backdrop-blur-md lg:gap-20 items-center '>
+        <div className='flex flex-col  justify-center w-full  p-2 py-10  backdrop-blur-md lg:gap-20 items-center '>
 
             <div className='min-w-[21rem]  w-[83vw] sm:w-[28rem] md:w-[46rem] lg:w-[50rem] '>
 
@@ -77,20 +77,20 @@ const Contact = () => {
                             <p className=" min-w-[18rem] text-[1.2rem] md:w-[18rem] lg:w-[20rem] w-[80vw] sm:w-[24rem]">Open for any query or just to have a chat</p>
                         </div>
 
-                        <div className="flex flex-col items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        <div className="flex flex-col items-start justify-start md:w-[18rem] lg:w-[23rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             {/* <div className="flex items-center justify-center border min-w-[3rem] h-[3rem] rounded-full">
                                 <FaLocationDot className="text-[1.1rem]" />
                             </div> */}
+                            <Link to={'/'} className={`flex items-start justify-start gap-1 `}>
+                                <FaLocationDot className='text-[2.6rem]' />
+                                <p className=" w-[13rem]"><span className='font-extrabold'>Factory: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,  Ramnagar, Chandauli, Uttar Pradesh 221110</p>
+                            </Link>
                             <Link to={'/'} className={`flex items-start justify-start gap-1`}>
                                 <FaLocationDot className='text-[2.6rem]' />
-                                <p><span className='font-semibold'>FACTORY: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,Ramnagar,Chandauli,Uttar Pradesh 221110</p>
-                            </Link>
-                            <Link to={'/'} className={`flex items-start justify-start gap-1`}>
-                                <FaLocationDot className='text-[1.8rem]' />
-                                <p><span className="font-semibold">OFFICE:  </span>K46/161 A, Hartirath,Varanasi,Uttar Pradesh-221001</p>
+                                <p className=" w-[14rem]"><span className="font-extrabold ">Office:  </span>K46/161 A, Hartirath, Varanasi, Uttar Pradesh-221001</p>
                             </Link>
                         </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        <div className="flex items-center justify-start md:w-[18rem] gap-2 lg:w-[20rem] min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <IoIosCall className="text-[1.1rem]" />
                             </div>

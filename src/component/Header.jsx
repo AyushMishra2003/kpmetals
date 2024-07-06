@@ -47,7 +47,7 @@ const Header = () => {
   }, [location]);
 
   return (
-    <div className="bg-[#f5f5f5]">
+    <div className="bg-[#f5f5f5] shadow-md shadow-[#808080]">
       {/* Hamburger Icon */}
       <button
         className="lg:hidden fixed top-12 right-7 z-50"
