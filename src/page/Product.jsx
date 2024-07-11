@@ -20,7 +20,7 @@ import DownloadPdf from '../component/DownloadPdf';
 
 const Product = () => {
     const h2Style = "font-bold text-[1.5rem] text-[#FF7000]";
-    const stepStyle = "shadow-[0px_0px_5px_#808080] rounded-xl p-1 m-3 w-[95%]";
+    const stepStyle = "shadow-[0px_0px_5px_#808080] rounded-xl p-1 m-3 w-[95%] ";
 
     useEffect(() => {
         AOS.init({
@@ -89,40 +89,13 @@ const Product = () => {
                         <h2 className={h2Style}>High Quality</h2>
                         <p>Backed by years of experience and expertise, we utilize the latest technology to engineer aluminum products that are not only reliable but also environmentally sustainable. Our continuous research and development efforts ensure that we stay ahead of the curve, offering innovative solutions to the ever-changing demands of the market.</p>
                     </div>
-                    <div className='flex flex-col flex-wrap items-start justify-around py-8 sm:items-center sm:flex-row'>
-                        <div>
-                            <h2 className={h2Style}>Our List</h2>
-                            <ul className='ml-3 list-disc list-inside'>
-                                <li>Single Partition/Double Partition.</li>
-                                <li>DOOR MIDDLE SINGLE /Door MIDDLE DOUBLE.</li>
-                                <li>DOOR TOP/DOOR BOTTOM.</li>
-                                <li>DOOR VERTICAL/ 3/4 HANDLE.</li>
-                                <li>1 "HANDLE/ 1" MIDDLE.</li>
-                                <li>3/4" MIDDLE / 3/4" BREATING TP BOTTO,.</li>
-                                <li>RECTANGULAR TUBE</li>
-                            </ul>
-                        </div>
-                        <img data-aos="fade-up" className='w-[18rem] h-[17rem]' src={advImg} alt="Image of advantages" />
-                        <div>
-                            <h2 className={h2Style}>Our List</h2>
-                            <ul className='ml-3 list-disc list-inside'>
-                                <li>SQUARE TUBE / GLAZING TUBE.</li>
-                                <li>DOUBLE CLASS CHANNEL / ANGEL.</li>
-                                <li>UNEQUAL ANGEL /TEE.</li>
-                                <li>G CHANNEL (DOOR GEAR) / 3/4" TWO TRACK TOP.</li>
-                                <li>FCHANNEL / U-CHANNEL.</li>
-                                <li>GLAZING SECTION</li>
-                                <li>LEDDER 'C'/ LEDDER STEPS.</li>
-                            </ul>
-                        </div>
-                    </div>
                     <div className='flex flex-col items-center justify-center'>
                         <div>
                             <h2 className={h2Style}>Introducing KP Metals' Impressive Aluminum Products Brochure List</h2>
                             <p>Our aluminum products are engineered for easy installation, making them suitable for a variety of applications. With affordability and quality in mind, KP Metals ensures that our aluminum panels are designed to meet your needs without compromising on performance. For detailed installation instructions and specifications, please refer to the provided product brochures. If you have any questions or require further assistance, our team is available to support you throughout the installation process.</p>
                         </div>
                         <DownloadPdf />
-                        <div className='grid items-center justify-center grid-cols-1  mt-2 rounded-lg w-fit sm:grid-cols-2'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4'>
                             <img data-aos="fade-up" className={stepStyle} src={step1} alt="Step 1" />
                             <img data-aos="fade-up" className={stepStyle} src={step2} alt="Step 2" />
                             <img data-aos="fade-up" className={stepStyle} src={step3} alt="Step 3" />

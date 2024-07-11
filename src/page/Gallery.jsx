@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import gallery1 from '../assets/galler1.jpg';
-import gallery2 from '../assets/galle2.jpg';
 import gallery3 from '../assets/galler3.jpg';
 import gallery5 from '../assets/heroo.webp';
 import gallery6 from '../assets/heroo2.webp';
@@ -11,16 +10,13 @@ import video2 from '../assets/video.mp4';
 
 const images = [
     gallery1,
-    // gallery2,
     gallery3,
     gallery5,
     gallery6,
 ];
 
 const videos = [
-    video1,
     video2,
-    // video1
 ];
 
 Modal.setAppElement('#root');
@@ -60,7 +56,7 @@ const Gallery = () => {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {videos.map((src, index) => (
                     <div key={index} className="overflow-hidden rounded-lg shadow-lg">
-                        <video controls className="w-full h-auto">
+                        <video autoPlay loop muted className="w-full h-auto">
                             <source src={src} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>

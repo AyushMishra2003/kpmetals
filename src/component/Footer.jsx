@@ -58,7 +58,7 @@ const Footer = () => {
                             </div>
                             <div className='flex items-start  gap-[1rem] justify-center'>
                                 <FaLocationDot className='text-[2.7rem]' />
-                                <p className=' lg:w-[35rem]'><span className='font-semibold'>Factory: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,Ramnagar,Chandauli,Uttar Pradesh 221110</p>
+                                <p className=' lg:w-[35rem]'><span className='font-semibold'>Factory: </span> KP Metals Pvt Ltd H2, Industrial Estate, Phase 1,Ramnagar,Chandauli,Uttar Pradesh 221110</p>
                             </div>
                             <div className='flex items-start gap-[1rem] justify-center'>
                                    <FaLocationDot className='text-[2.2rem]' />

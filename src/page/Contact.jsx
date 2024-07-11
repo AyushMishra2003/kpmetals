@@ -83,7 +83,7 @@ const Contact = () => {
                             </div> */}
                             <Link to={'/'} className={`flex items-start justify-start gap-1 `}>
                                 <FaLocationDot className='text-[2.6rem]' />
-                                <p className=" w-[13rem]"><span className='font-extrabold'>Factory: </span> KP Metelas Pvt Ltd H2, Industrial Estate, Phase 1,  Ramnagar, Chandauli, Uttar Pradesh 221110</p>
+                                <p className=" w-[13rem]"><span className='font-extrabold'>Factory: </span> KP Metals Pvt Ltd H2, Industrial Estate, Phase 1,  Ramnagar, Chandauli, Uttar Pradesh 221110</p>
                             </Link>
                             <Link to={'/'} className={`flex items-start justify-start gap-1`}>
                                 <FaLocationDot className='text-[2.6rem]' />
