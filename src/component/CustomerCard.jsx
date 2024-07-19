@@ -11,7 +11,7 @@ const CustomerCard = ({ image, name, profession, rev }) => {
           <p className='text-red-500'>{name}</p>
           <p className='w-[10rem]'>{profession}</p>
         </div>
-        {/* <img src={image} alt="" className='object-cover w-[6rem] h-[6rem] p-2 rounded-full' /> */}
+        <img src={image} alt="" className='object-cover w-[6rem] h-[6rem] p-2 rounded-full' />
       </div>
       <p>{rev}</p>
     </div>
